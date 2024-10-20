@@ -1,428 +1,687 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Roman Sjakaev</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<html lang="en" dir="ltr">
 
-        <!-- CSS Files
-    ================================================== -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/animate.css" rel="stylesheet" type="text/css" />
-        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
-        <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
-        <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
-        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-        <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
+<head>
+    <meta charset="UTF-8">
 
-        <!-- color scheme -->
-        <link id="colors" href="css/colors/scheme-02.css" rel="stylesheet" type="text/css" />
-        <link href="css/coloring.css" rel="stylesheet" type="text/css" />
-    </head>
+    <title>Roman Siakaev</title>
 
-    <body>
-        <div id="wrapper">
-            <div class="page-overlay">
-                <div class="preloader-wrap">
-                    <div class="spinner">
-                        <div class="bounce1"></div>
-                        <div class="bounce2"></div>
-                        <div class="bounce3"></div>
+    <meta name="description" content="Roman Siakaev personal page">
+    <meta name="keywords" content="resume, portfolio, personal page, cv, template, responsive, html5, css3, creative, clean">
+    <meta name="author" content="mix_design">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.webmanifest">
+
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+    <meta name="msapplication-navbutton-color" content="#111111">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  </head>
+
+  <body>
+
+    <header id="header" class="header d-flex justify-content-between">
+
+      <div class="header__navigation">
+        <nav id="menu" class="menu">
+          <ul class="menu__list d-flex justify-content-start">
+            <li class="menu__item">
+              <a class="menu__link btn" href="#home">
+                <span class="menu__caption">Home</span>
+                <i class="ph-bold ph-house-simple"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#projects">
+                <span class="menu__caption">Projects</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#about">
+                <span class="menu__caption">About Me</span>
+                <i class="ph-bold ph-user"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#resume">
+                <span class="menu__caption">Resume</span>
+                <i class="ph-bold ph-article"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__controls d-flex justify-content-end">
+        <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch" aria-label="light/dark mode" aria-checked="true"></button>
+      </div>
+
+    </header>
+        <div id="imageBackground" class="image-background" data-speed="0.4"></div>
+
+    <div id="avatar" class="avatar">
+        <div class="avatar__container d-flex flex-column justify-content-lg-between">
+          <div class="avatar__block">
+            <div class="avatar__logo d-flex align-items-center">
+              <div class="logo__caption">
+                <p>Roman Siakaev</p>
+              </div>
+            </div>
+            <div class="avatar__image">
+              <img src="img/avatars/avatar.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="avatar__block">
+            <h6>
+              <small class="top">Specialization:</small>
+              Web Developer<br>and Frontend Engineer
+            </h6>
+          </div>
+          <div class="avatar__block">
+            <h6>
+              <small class="top">Phone:</small>
+              <a class="text-link-bold" href="tel:+4917672359580">+49 176 72359580</a>
+            </h6>
+          </div>
+          <div class="avatar__block">
+              <h6>
+                <small class="top">Email:</small>
+                <a class="text-link-bold" href="mailto:r.sjakaev@gmail.com">r.sjakaev@gmail.com</a>
+              </h6>
+            </div>
+          <div class="avatar__block">
+              <h6>
+                <small class="top">Based in:</small>
+                Berlin, Germany
+              </h6>
+            </div>
+        <div class="avatar__block">
+            <ul class="socials-square">
+                <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://t.me/sjakaev" target="_blank"><i class="ph-bold ph-telegram-logo"></i></a>
+                </li>
+                <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://www.linkedin.com/in/siakaev/" target="_blank"><i class="ph-bold ph-linkedin-logo"></i></a>
+                </li>
+                <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://github.com/sjakaev" target="_blank"><i class="ph-bold ph-github-logo"></i></a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="content" class="content">
+      <div class="content__wrapper">
+
+        <section id="home" class="main intro">
+
+          <div id="headline" class="headline d-flex align-items-start flex-column" data-speed="1">
+            <h1 class="headline__title animate-headline">Hi, I'm Roman Siakaev!<br>Web Developer and Frontend Engineer</h1>
+
+            <div class="headline__btnholder d-flex flex-column flex-sm-row">
+              <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline" href="#projects">
+                <span class="btn-caption">My Works</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+              <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline" href="./roman_cv.pdf" download="roman_cv.pdf">
+                <span class="btn-caption">Download CV</span>
+                <i class="ph-bold ph-download-simple"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="rotating-btn">
+            <a href="#projects" class="rotating-btn__link slide-down">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve"
+                class="animate-rotation" data-value="360">
+                <defs>
+                  <path id="textPath" d="M110,59.5c0,27.6-22.4,50-50,50s-50-22.4-50-50s22.4-50,50-50S110,31.9,110,59.5z"/>
+                </defs>
+                <g>
+                  <use xlink:href="#textPath" fill="none"></use>
+                  <text>
+                    <textPath xlink:href="#textPath">Scroll for More * Scroll for More * </textPath>
+                  </text>
+                </g>
+              </svg>
+              <i class="ph-bold ph-arrow-down"></i>
+            </a>
+          </div>
+
+        </section>
+
+        <section id="projects" class="inner inner-first portfolio">
+
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>Projects</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Check out my featured projects</h2>
+          </div>
+
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projects/astral-defender1.jpg" target="_blank" data-image="./img/projects/astral-defender.jpg" class="gallery__link" itemprop="contentUrl" data-size="908x908">
+                    <img src="./img/projects/astral-defender.jpg" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5>Astral defender</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">React</span>
+                      <span class="rounded-tag opposite">TypeScript</span>
+                      <span class="rounded-tag opposite">Docker</span>
                     </div>
+                    <p class="small">An engaging 2D browser game that combines fast-paced action with strategic upgrades. Learn more about this game <a href="https://github.com/sjakaev/astral-defender" class="text-link">here</a>
+                    </p>
+                  </figcaption>
+                </figure>
+
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projects/messenger1.jpg" data-image="./img/projects/messenger.jpg" class="gallery__link" itemprop="contentUrl" data-size="908x908">
+                    <img src="./img/projects/messenger.jpg" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5 class="opposite">Messenger</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag">Vite</span>
+                      <span class="rounded-tag">Express.js</span>
+                      <span class="rounded-tag">TypeScript</span>
+                    </div>
+                    <p class="small">A modern web application for real-time messaging, developed with cutting-edge frontend and backend technologies. Learn more about the project <a href="https://github.com/sjakaev/middle.messenger.praktikum.yandex" class="text-link">here</a>
+                    </p>
+                  </figcaption>
+                </figure>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section id="about" class="inner about">
+
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>About Me</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Creating dynamic web applications with a focus on usability</h2>
+          </div>
+
+          <div class="content__block grid-block">
+            <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">5+</p>
+                  <p class="achievements__descr">Years of experience</p>
                 </div>
+              </div>
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">1000+</p>
+                  <p class="achievements__descr">Tasks completed</p>
+                </div>
+              </div>
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">10+</p>
+                  <p class="achievements__descr">Successful projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__block grid-block block-large">
+            <div class="container-fluid p-0">
+              <div class="row g-0 justify-content-between">
+
+                <div class="col-12 col-xl-8 grid-item about-descr">
+                  <p class="about-descr__text animate-in-up">
+                    Ever felt that spark when a website just works perfectly?
+                    That’s the magic I aim to create every day.
+                    With a knack for crafting dynamic web applications and a keen eye for usability,
+                    I turn visions into vibrant, interactive experiences.
+                    I believe that excellent design and functionality go hand in hand.
+                    Let’s make the web a more beautiful place!
+
+                  </p>
+                  <div class="btn-group about-descr__btnholder animate-in-up">
+                    <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent" href="./roman_cv.pdf" download="roman_cv.pdf">
+                      <span class="btn-caption">Download CV</span>
+                      <i class="ph-bold ph-download-simple"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-12 col-xl-4 grid-item about-info">
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Name</small>
+                      Roman Siakaev
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Phone</small>
+                      <a class="text-link-bold" href="tel:+4917672359580">+49 176 72359580</a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Email</small>
+                      <a class="text-link-bold" href="mailto:r.sjakaev@gmail.com">r.sjakaev@gmail.com</a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Location</small>
+                      <a class="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank">Berlin, Germany</a>
+                    </h6>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="resume" class="inner resume">
+
+          <div class="content__block block-large">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>Resume</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Education and practical experience</h2>
+            <p class="h2__text animate-in-up">
+                The more I learn, the more I realize how much there is still to discover.
+                My education and hands-on experience inspire me to keep growing and exploring new horizons.
+            </p>
+          </div>
+
+          <div class="content__block block-large">
+
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">My education</h3>
             </div>
 
-            <!-- header begin -->
-            <header class="transparent scroll-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="d-flex justify-content-between">
-                                <div class="align-self-center header-col-left">
-                                    <!-- logo begin -->
-                                    <div id="logo">
-                                        <a href="index.html">
-                                            Roman Sjakaev
-                                        </a>
-                                    </div>
-                                    <!-- logo close -->
-                                </div>
-                                <div class="align-self-center ml-3 header-col-mid">
-                                    <!-- mainmenu begin -->
-                                    <ul id="mainmenu" class="scrollnav">
-                                        <li><a href="#section-hero" class="active">Home</a></li>
-                                        <li></li>
-                                        <li><a href="#section-about">About</a></li>
-                                        <li></li>
-                                        <li><a href="#section-services">Services</a></li>
-                                        <li></li>
-                                        <li><a href="#section-portfolio">Portfolio</a></li>
-                                        <li></li>
-                                        <li><a href="#section-contact">Contact</a></li>
-                                        <li></li>
-                                    </ul>
-
-                                    <!-- mainmenu close -->
-                                </div>
-                                <div class="align-self-center ml-auto header-col-right">
-                                    <div class="social-icons">
-                                        <a target="_blank" href="https://vk.com/id54136993"><i class="fa fa-vk fa-lg"></i></a>
-                                        <a target="_blank" href="https://github.com/sjakaev/"><i class="fa fa-github fa-lg"></i></a>
-                                        <a target="_blank" href="https://t.me/sjakaev"><i class="fa fa-telegram fa-lg"></i></a>
-                                        <a target="_blank" href="https://www.instagram.com/sjakaev/"><i class="fa fa-instagram fa-lg"></i></a>
-                                    </div>
-
-                                    <span id="menu-btn"></span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
+            <div class="container-fluid p-0 resume-lines">
+                <div class="row g-0 resume-lines__item animate-in-up">
+                    <div class="col-12 col-md-2">
+                      <span class="resume-lines__date animate-in-up">2023 - 2024</span>
                     </div>
+                    <div class="col-12 col-md-5">
+                      <h5 class="resume-lines__title animate-in-up">Mid-Level Web Developer</h5>
+                      <p class="resume-lines__source animate-in-up">Course by
+                        <a href="https://practicum.yandex.ru/" class="text-link-bold" target="_blank">Yandex practicum</a>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <p class="small resume-lines__descr animate-in-up">In this course, I wrote an online game in React, learned about Redux, REST API, NodeJS, Web Application Architecture</p>
+                    </div>
+                  </div>
+                <div class="row g-0 resume-lines__item animate-in-up">
+                    <div class="col-12 col-md-2">
+                      <span class="resume-lines__date animate-in-up">2022</span>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <h5 class="resume-lines__title animate-in-up">Vue - The Complete Guide</h5>
+                      <p class="resume-lines__source animate-in-up"> Course by
+                        <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/" class="text-link-bold" target="_blank">Maximilian Schwarzmüller</a>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <p class="small resume-lines__descr animate-in-up">This course opened the door to the world of reactivity. I learned everything I needed to know about Vue to learn how to write clean, extensible, and reusable components</p>
+                    </div>
+                  </div>
+                <div class="row g-0 resume-lines__item animate-in-up">
+                    <div class="col-12 col-md-2">
+                      <span class="resume-lines__date animate-in-up">2021 - 2022</span>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <h5 class="resume-lines__title animate-in-up">Winter School for TypeScript</h5>
+                      <p class="resume-lines__source animate-in-up">Course by
+                        <a href="https://javascript.ninja/" class="text-link-bold" target="_blank">Ilya Klimov</a>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <p class="small resume-lines__descr animate-in-up">In this course, I stopped being afraid of typeScript and started to understand the advantages of typeScript over javascript and also learned about its disadvantages</p>
+                    </div>
+                  </div>
+                <div class="row g-0 resume-lines__item animate-in-up">
+                    <div class="col-12 col-md-2">
+                      <span class="resume-lines__date animate-in-up">2019 - 2020</span>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <h5 class="resume-lines__title animate-in-up">Professional Website Development</h5>
+                      <p class="resume-lines__source animate-in-up"> Course by
+                        <a href="https://htmlacademy.org/" class="text-link-bold" target="_blank">Html Academy</a>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <p class="small resume-lines__descr animate-in-up">This course gave me a closer look at html5, css3 and javascript. I learnt about felxblox, grid, adaptive and semantic layout</p>
+                    </div>
+                  </div>
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2014 - 2018</span>
                 </div>
-            </header>
-            <!-- header close -->
-            <!-- content begin -->
-            <div class="no-bottom no-top text-light" id="content" data-bgcolor="#202020">
-                <div id="top"></div>
-
-                <section id="section-hero" class="vertical-center text-light" data-bgimage="url(images/background/3.jpg) top" data-stellar-background-ratio=".5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-8 col-xl-5 col-md-6">
-                                <h4 class="id-color">Web Developer</h4>
-                                <div class="spacer-10"></div>
-                                <h1 class="wow fadeInUp" data-wow-delay=".5s">Hello my name is Roman Sjakaev</h1>
-                                <p class="lead wow fadeInUp" data-wow-delay=".75s">
-                                    If you need a website or an application, I will help you do it efficiently and quickly
-                                </p>
-                                <div class="spacer-20"></div>
-                                <a class="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" href="#section-about">About Me</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
-
-                <section id="section-about" data-bgcolor="#202020">
-                    <div class="container">
-                        <div class="row align-items-center">
-
-                            <div class="mx-auto text-center col-lg-10 offset-md-0 wow fadeInLeft" data-wow-delay=".1s">
-                                <h2>About Me</h2>
-                                <p>
-
-                                    I have been in web development for over three years and
-                                    have two years of experience in this position as Web Developer.
-                                    My technology stack:
-                                    NodeJS, VueJS, Nuxt, Lerna, Template Toolkit, Less, Sass,
-                                    Bootstrap, Vuetify, Jest.
-                                    I also have experience writing bots for telegram. I love programming and learning new things!
-                                </p>
-                                <div class="spacer-10"></div>
-                                <span id="btn-show-skills" class="btn-border wow fadeInUp" data-wow-delay="0.2s">Show My Skills</span>
-                            </div>
-                        </div>
-
-                        <div id="skills" class="row">
-                            <div class="spacer-double"></div>
-                            <div class="col-md-4">
-                                <div class="skill-bar style-2">
-                                    <h5>HTML5 / CSS3</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="90%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-bar style-2">
-                                    <h5>Sass / Less</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="80%"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="skill-bar style-2">
-                                    <h5>Javascript</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="70%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-bar style-2">
-                                    <h5>VueJs</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="75%"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="skill-bar style-2">
-                                    <h5>SEO</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="60%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-bar style-2">
-                                    <h5>GitLab / Github</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="80%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="section-services" data-bgcolor="#252525">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 offset-lg-3">
-                                <div class="text-center">
-                                    <h2>My Services</h2>
-                                    <div class="spacer-30"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay="0s">
-                                <div class="f-box f-icon-left f-icon-circle f-border">
-                                    <i class="fa fa-laptop id-color"></i>
-                                    <div class="fb-text">
-                                        <h4>Website Developing</h4>
-                                        <p>Pixel perfect development from designer layout, mobile adaptation, HTML5 / CSS3, SEO optimisation. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".2s">
-                                <div class="f-box f-icon-left f-icon-circle f-border">
-                                    <i class="fa fa-object-group id-color"></i>
-                                    <div class="fb-text">
-                                        <h4>Front-End</h4>
-                                        <p>Development with JavaScript, VueJS, Nuxt, NodeJs. Help with setting up the server.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".2s">
-                                <div class="f-box f-icon-left f-icon-circle f-border">
-                                    <i class="fa fa-paper-plane-o id-color"></i>
-                                    <div class="fb-text">
-                                        <h4>Telegram bots</h4>
-                                        <p>Development of telegram bots of any complexity using telegrafJs.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-<!--                <section id="section-cta" class="text-light" data-bgimage="url(images/background/3.jpg) top" data-stellar-background-ratio=".5">-->
-<!--                    <div class="container">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-md-8 offset-md-2 text-center">-->
-<!--                                <h2>I Am Available For Freelancer</h2>-->
-<!--                                <div class="spacer-10"></div>-->
-<!--                                <a href="#" class="btn-custom">Hire Me Now</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </section>-->
-
-                <!-- section begin -->
-                <section id="section-portfolio" data-bgcolor="#202020">
-                    <div class="container">
-                        <!-- portfolio filter begin -->
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h5><span class="id-color">Portfolio</span></h5>
-                                <h2>I Love What I Do</h2>
-                            </div>
-
-                            <div class="spacer-single"></div>
-
-                            <div class="col-md-12 text-center">
-                                <ul id="filters">
-                                    <li><a href="#" data-filter="*" class="selected">all projects</a></li>
-                                    <li><a href="#" data-filter=".website">website</a></li>
-                                    <li><a href="#" data-filter=".web-application">web-application</a></li>
-                                    <li><a href="#" data-filter=".telegram-bot">telegram-bot</a></li>
-                                </ul>
-
-                                <div id="gallery" class="gallery full-gallery de-gallery pf_full_width pf_3_cols grid sequence">
-                                    <!-- gallery item -->
-                                    <a target="_blank" class="item telegram-bot gallery-item" href="https://t.me/pinterestArt_bot" data-value="project-details-youtube-big.html">
-                                        <div class="picframe wow">
-                                            <span class="overlay">
-                                                <span class="pf_text">
-                                                    <span class="project-name">Pinterest Art Bot</span>
-                                                </span>
-                                            </span>
-                                            <img src="images/portfolio-2/7.jpg" alt="pinterest-art-bot" />
-                                        </div>
-                                    </a>
-                                    <!-- close gallery item -->
-
-                                    <!-- gallery item -->
-                                    <a target="_blank" class="item website gallery-item" href="https://sjakaev.github.io/barbershop/index.html" data-value="project-details-youtube-big.html">
-                                        <div class="picframe wow">
-                                            <span class="overlay">
-                                                <span class="pf_text">
-                                                    <span class="project-name">Barbershop Borodinski</span>
-                                                </span>
-                                            </span>
-                                            <img src="images/portfolio-2/8.png" alt="barbershop" />
-                                        </div>
-                                    </a>
-                                    <!-- close gallery item -->
-
-                                    <!-- gallery item -->
-                                    <a target="_blank" class="item website gallery-item" href="https://sjakaev.github.io/reg_ru/index.html" data-value="project-details-youtube-big.html">
-                                        <div class="picframe wow">
-                                            <span class="overlay">
-                                                <span class="pf_text">
-                                                    <span class="project-name">Test task for the employer</span>
-                                                </span>
-                                            </span>
-                                            <img src="images/portfolio-2/9.png" alt="test-task" />
-                                        </div>
-                                    </a>
-                                    <!-- close gallery item -->
-
-                                    <!-- gallery item -->
-                                    <a target="_blank" class="item website gallery-item" href="https://sjakaev.github.io/waxom/index.html#" data-value="project-details-youtube-big.html">
-                                        <div class="picframe wow">
-                                            <span class="overlay">
-                                                <span class="pf_text">
-                                                    <span class="project-name">Waxom Lending</span>
-                                                </span>
-                                            </span>
-                                            <img src="images/portfolio-2/10.png" alt="waxom" />
-                                        </div>
-                                    </a>
-                                    <!-- close gallery item -->
-                                </div>
-                            </div>
-                            <!-- portfolio filter close -->
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
-                <div id="loader-area" data-bgcolor="#202020">
-                    <div class="container">
-                        <div class="project-load"></div>
-                    </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Bachelor in electrinics and nanoelectrincs</h5>
+                  <p class="resume-lines__source animate-in-up">
+                    <a href="https://ssau.ru/english" class="text-link-bold" target="_blank">Samara National Research University</a>
+                  </p>
                 </div>
-
-                <section id="section-contact" data-bgcolor="#252525">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 offset-lg-3">
-                                <div class="text-center">
-                                    <h2>Contact With Me</h2>
-                                    <p>You can contact me through any communication channel below.
-                                        The preferred method of communication is by telegram.
-                                    </p>
-                                    <div class="spacer-30"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="spacer-double"></div>
-
-                        <div class="row mx-6 text-center justify-content-center wow fadeInUp">
-                            <div class="col-md-3 mb20">
-                                <div class="wm-1"></div>
-                                <i class="icon_link_alt id-color size40 mb20"></i>
-                                <h6 class="id-color">VK</h6>
-                                <a target="_blank" href="https://vk.com/id54136993">@id54136993</a>
-                            </div>
-
-                            <div class="col-md-3 mb20">
-                                <div class="wm-1"></div>
-                                <i class="icon_mail_alt id-color size40 mb20"></i>
-                                <h6 class="id-color">Gmail</h6>
-                                <a target="_blank" href="mailto:r.sjakaev@gmail.com">r.sjakaev@gmail.com</a>
-                            </div>
-
-                            <div class="col-md-3 mb20">
-                                <div class="wm-1"></div>
-                                <i class="icon_pencil id-color size40 mb20"></i>
-                                <h6 class="id-color">Telegram</h6>
-                                <a target="_blank" href="https://t.me/sjakaev">@sjakaev</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Higher technical education received in one of the best universities in Russia</p>
+                </div>
+              </div>
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2003 - 2014</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">High school diploma (abitur)</h5>
+                  <p class="resume-lines__source animate-in-up">
+                    <span class="text-link-bold">School №46</span>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">General Education School with advanced study in some subjects</p>
+                </div>
+              </div>
             </div>
-            <!-- content close -->
 
-            <!-- footer begin -->
-            <footer class="dark">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 sm-text-center mb-sm-30">
-                            © Copyright 2020 - Jess by Designesia
-                        </div>
+          </div>
 
-                        <div class="col-md-6 text-md-right text-sm-left">
-                            <div class="social-icons">
-                                <a target="_blank" href="https://vk.com/id54136993"><i class="fa fa-vk fa-lg"></i></a>
-                                <a target="_blank" href="https://github.com/sjakaev/"><i class="fa fa-github fa-lg"></i></a>
-                                <a target="_blank" href="https://t.me/sjakaev"><i class="fa fa-telegram fa-lg"></i></a>
-                                <a target="_blank" href="https://www.instagram.com/sjakaev/"><i class="fa fa-instagram fa-lg"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- footer close -->
+          <div class="content__block block-large">
 
-            <a href="#" id="back-to-top"></a>
-
-            <div id="preloader">
-                <div class="spinner">
-                    <div class="bounce1"></div>
-                    <div class="bounce2"></div>
-                    <div class="bounce3"></div>
-                </div>
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">Work experience</h3>
+              <p class="h2__text animate-in-up">
+                I’ve been with <a href="https://www.reg.ru/company/" class="text-link">REG.RU</a> (a leader in domain registration, web hosting, and server rentals in Russia)
+                for a great journey, growing from a Junior to a Middle+ developer.
+                It’s been rewarding to develop my skills and take on new challenges as the company expanded.
+                Now, I’m excited to explore international opportunities and bring my experience to a fresh, dynamic team!
+              </p>
             </div>
+
+            <div class="container-fluid p-0 resume-lines">
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2022 - 2024</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Middle+ frontend developer</h5>
+                  <p class="resume-lines__source animate-in-up">in the
+                    <a href="https://www.reg.ru/company/" class="text-link-bold" target="_blank">Regru</a>
+                    company
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Refactored the existing website architecture, sped up page loading,
+                    developed Vue components, consulted for development teams.</p>
+                </div>
+              </div>
+
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2019 - 2022</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Middle frontend developer</h5>
+                  <p class="resume-lines__source animate-in-up">in the
+                    <a href="https://www.reg.ru/company/" class="text-link-bold" target="_blank">Regru</a>
+                    company
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Developed an application using NuxtJs, created a customdesign
+                    system based on AntDesign. <br> Technologies used: JavaScript, TypeScript, VueJS, NuxtJS.</p>
+                </div>
+              </div>
+
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2018 - 2019</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Junior frontend developer</h5>
+                  <p class="resume-lines__source animate-in-up">in the
+                    <a href="https://www.reg.ru/company/" class="text-link-bold" target="_blank">Regru</a>
+                    company
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Supported the existing code base, fixed bugs, refactored code,
+                    created landingpages.<br> Technologies used: HTML5, CSS3, LESS, TemplateToolkit.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="content__block">
+            <div class="section-h3 section-h3-grid">
+              <h3 class="h3__title animate-in-up">My favourite tools</h3>
+            </div>
+          </div>
+
+          <div class="content__block grid-block block-large">
+            <div class="tools-cards d-flex justify-content-start flex-wrap">
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-javascript.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">JavaScript</h6>
+                </div>
+              </div>
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">HTML5</h6>
+                </div>
+              </div>
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-css.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">CSS3</h6>
+                </div>
+              </div>
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-vue.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Vue3</h6>
+                </div>
+              </div>
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-react.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">React</h6>
+                </div>
+              </div>
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-typescript.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">TypeScript</h6>
+                </div>
+              </div>
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-vite.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Vite</h6>
+                </div>
+              </div>
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-docker.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Docker</h6>
+                </div>
+              </div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-webpack.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Webpack</h6>
+                </div>
+              </div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-nuxt.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Nuxt</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+          <div class="content__block">
+            <div class="container-fluid p-0 contact-lines animate-in-up">
+              <div class="row g-0 contact-lines__item">
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Location</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank">Berlin, Germany</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Phone</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="tel:+4917672359580">+49 176 72359580</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Email</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="mailto:r.sjakaev@gmail.com">r.sjakaev@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+    </div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+      <div class="pswp__bg"></div>
+
+      <div class="pswp__scroll-wrap">
+
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
         </div>
 
-        
+        <div class="pswp__ui pswp__ui--hidden">
 
-        <!-- Javascript Files
-    ================================================== -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/jquery.isotope.min.js"></script>
-        <script src="js/easing.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        <script src="js/validation.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/enquire.min.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/jquery.plugin.js"></script>
-        <script src="js/typed.js"></script>
-        <script src="js/typed-custom.js"></script>
-        <script src="js/jquery.countTo.js"></script>
-        <script src="js/jquery.countdown.js"></script>
-        <script src="js/designesia.js"></script>
-    </body>
+          <div class="pswp__top-bar">
+
+
+            <div class="pswp__counter"></div>
+
+            <button class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
+
+            <button class="pswp__button pswp__button--share link-s" title="Share"></button>
+
+            <button class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
+
+            <button class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
+
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left link-s" title="Previous (arrow left)"></button>
+
+            <button class="pswp__button pswp__button--arrow--right link-s" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script>
+
+      const content = document.querySelector('body');
+      const imgLoad = imagesLoaded(content);
+      const svgBackground = document.querySelector("svg-background");
+
+      imgLoad.on('done', instance => {
+
+        document.getElementById("loaderContent").classList.add("fade-out");
+        setTimeout(() => {
+          document.getElementById("loader").classList.add("loaded");
+        }, 300);
+
+        gsap.set(".animate-headline", {y: 50, opacity: 0});
+        ScrollTrigger.batch(".animate-headline", {
+          interval: 0.1,
+          batchMax: 4,
+          duration: 6,
+          onEnter: batch => gsap.to(batch, {
+            opacity: 1,
+            y: 0,
+            ease: 'sine',
+            stagger: {each: 0.15, grid: [1, 4]},
+            overwrite: true
+          }),
+          onLeave: batch => gsap.set(batch, {opacity: 1, y: 0, overwrite: true}),
+          onEnterBack: batch => gsap.to(batch, {opacity: 1, y: 0, stagger: 0.15, overwrite: true}),
+          onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 50, overwrite: true})
+        });
+
+      });
+    </script>
+    <script src="js/app.js"></script>
+    <script src="js/gallery-init.js"></script>
+
+  </body>
 </html>
