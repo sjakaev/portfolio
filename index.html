@@ -26,6 +26,51 @@
     <link rel="stylesheet" type="text/css" href="css/plugins.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <style>
+      /* --- Custom freelance-landing overrides --- */
+      .headline__subtitle{
+        margin-top: 28px;
+        max-width: 640px;
+        font-size: 1.05rem;
+        line-height: 1.55;
+        opacity: .85;
+      }
+      /* Service cards: readable spacing, title separated from text */
+      #services .achievements__card{
+        padding: 32px 26px;
+        height: 100%;
+        text-align: left;
+      }
+      #services .achievements__card > i{
+        color: var(--accent, #b794f6);
+        font-size: 2rem;
+        margin-bottom: 18px;
+        display: block;
+      }
+      #services .svc-title{
+        display: block;
+        font-size: 1.12rem;
+        font-weight: 700;
+        margin-bottom: 12px;
+        line-height: 1.3;
+      }
+      #services .svc-text{
+        display: block;
+        font-size: .95rem;
+        line-height: 1.6;
+        opacity: .8;
+      }
+      #services .achievements__item{ display: flex; }
+      /* Fix outline button hover (non-mobile variant) */
+      .btn-hover-outline:hover{
+        background: var(--accent, #b794f6);
+        border-color: var(--accent, #b794f6);
+        color: #14121a;
+      }
+      .btn-hover-outline:hover .btn-caption,
+      .btn-hover-outline:hover i{ color: #14121a; }
+    </style>
+
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
     <meta name="msapplication-navbutton-color" content="#111111">
@@ -102,7 +147,7 @@
           <div class="avatar__block">
             <h6>
               <small class="top">Specialization:</small>
-              Web Developer<br>and Frontend Engineer
+              Freelance Vue &amp; React<br>Developer
             </h6>
           </div>
           <div class="avatar__block">
@@ -288,20 +333,20 @@
             <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
               <div class="achievements__item d-flex flex-column grid-item animate-card-3">
                 <div class="achievements__card">
-                  <i class="ph-bold ph-arrows-clockwise" style="font-size:2rem;margin-bottom:.75rem;display:block;"></i>
-                  <p class="achievements__descr"><strong>Vue 2 → Vue 3 Migration</strong><br>I move legacy Vue 2 / Nuxt 2 codebases to Vue 3 &amp; the modern stack - safely, incrementally, without breaking production.</p>
+                  <i class="ph-bold ph-arrows-clockwise"></i>
+                  <p class="achievements__descr"><span class="svc-title">Vue 2 → Vue 3 Migration</span><span class="svc-text">I move legacy Vue 2 / Nuxt 2 codebases to Vue 3 and the modern stack - safely, incrementally, without breaking production.</span></p>
                 </div>
               </div>
               <div class="achievements__item d-flex flex-column grid-item animate-card-3">
                 <div class="achievements__card">
-                  <i class="ph-bold ph-gauge" style="font-size:2rem;margin-bottom:.75rem;display:block;"></i>
-                  <p class="achievements__descr"><strong>Performance Optimization</strong><br>Slow app? I cut load times (up to −45% First Contentful Paint) with code splitting, lazy loading &amp; bundle work.</p>
+                  <i class="ph-bold ph-gauge"></i>
+                  <p class="achievements__descr"><span class="svc-title">Performance Optimization</span><span class="svc-text">Slow app? I cut load times (up to -45% First Contentful Paint) with code splitting, lazy loading and bundle work.</span></p>
                 </div>
               </div>
               <div class="achievements__item d-flex flex-column grid-item animate-card-3">
                 <div class="achievements__card">
-                  <i class="ph-bold ph-rocket-launch" style="font-size:2rem;margin-bottom:.75rem;display:block;"></i>
-                  <p class="achievements__descr"><strong>Frontend Development &amp; MVPs</strong><br>End-to-end web apps and B2B/B2C platforms in Vue, Nuxt, React, Next.js &amp; TypeScript - built clean and maintainable.</p>
+                  <i class="ph-bold ph-rocket-launch"></i>
+                  <p class="achievements__descr"><span class="svc-title">Frontend Development &amp; MVPs</span><span class="svc-text">End-to-end web apps and B2B/B2C platforms in Vue, Nuxt, React, Next.js and TypeScript - built clean and maintainable.</span></p>
                 </div>
               </div>
             </div>
@@ -343,14 +388,14 @@
               </svg>
               <span>About Me</span>
             </p>
-            <h2 class="h2__title animate-in-up">Creating dynamic web applications with a focus on usability</h2>
+            <h2 class="h2__title animate-in-up">Senior frontend developer, open for freelance</h2>
           </div>
 
           <div class="content__block grid-block">
             <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
               <div class="achievements__item d-flex flex-column grid-item animate-card-3">
                 <div class="achievements__card">
-                  <p class="achievements__number">5+</p>
+                  <p class="achievements__number">7+</p>
                   <p class="achievements__descr">Years of experience</p>
                 </div>
               </div>
@@ -376,7 +421,7 @@
                 <div class="col-12 col-xl-8 grid-item about-descr">
                   <p class="about-descr__text animate-in-up">
                     Senior Frontend Developer - Vue &amp; React, based in Berlin. <br/><br/>
-                    Over 5+ years I've shipped production frontends at scale - from migrating complex Vue 2 codebases to Vue 3, to building end-to-end MVPs and white-label B2B/B2C platforms powered by GraphQL. I care about real outcomes: on recent projects I cut First Contentful Paint by up to 45% with code splitting and lazy loading, built a component library that reduced dev time for new features by 40%, and shipped an automated proposal builder that lifted the deal-to-client rate by 20%.
+                    Over 7+ years I've shipped production frontends at scale - from migrating complex Vue 2 codebases to Vue 3, to building end-to-end MVPs and white-label B2B/B2C platforms powered by GraphQL. I care about real outcomes: on recent projects I cut First Contentful Paint by up to 45% with code splitting and lazy loading, built a component library that reduced dev time for new features by 40%, and shipped an automated proposal builder that lifted the deal-to-client rate by 20%.
                     My toolset: JavaScript, TypeScript, Vue, Nuxt, React, Next.js, Tailwind.<br/><br/>
 
                     <strong>Currently open to freelance &amp; contract projects.</strong>
@@ -457,7 +502,7 @@
                       </p>
                     </div>
                     <div class="col-12 col-md-5">
-                      <p class="small resume-lines__descr animate-in-up">In this course, I wrote an online game in React, learned about Redux, REST API, NodeJS, Web Application Architecture</p>
+                      <p class="small resume-lines__descr animate-in-up">Built an online game in React; covered Redux, REST APIs, Node.js and web application architecture.</p>
                     </div>
                   </div>
                 <div class="row g-0 resume-lines__item animate-in-up">
@@ -471,35 +516,7 @@
                       </p>
                     </div>
                     <div class="col-12 col-md-5">
-                      <p class="small resume-lines__descr animate-in-up">This course opened the door to the world of reactivity. I learned everything I needed to know about Vue to learn how to write clean, extensible, and reusable components</p>
-                    </div>
-                  </div>
-                <div class="row g-0 resume-lines__item animate-in-up">
-                    <div class="col-12 col-md-2">
-                      <span class="resume-lines__date animate-in-up">2021 - 2022</span>
-                    </div>
-                    <div class="col-12 col-md-5">
-                      <h5 class="resume-lines__title animate-in-up">Winter School for TypeScript</h5>
-                      <p class="resume-lines__source animate-in-up">Course by
-                        <a href="https://javascript.ninja/" class="text-link-bold" target="_blank">Ilya Klimov</a>
-                      </p>
-                    </div>
-                    <div class="col-12 col-md-5">
-                      <p class="small resume-lines__descr animate-in-up">In this course, I stopped being afraid of typeScript and started to understand the advantages of typeScript over javascript and also learned about its disadvantages</p>
-                    </div>
-                  </div>
-                <div class="row g-0 resume-lines__item animate-in-up">
-                    <div class="col-12 col-md-2">
-                      <span class="resume-lines__date animate-in-up">2019 - 2020</span>
-                    </div>
-                    <div class="col-12 col-md-5">
-                      <h5 class="resume-lines__title animate-in-up">Professional Website Development</h5>
-                      <p class="resume-lines__source animate-in-up"> Course by
-                        <a href="https://htmlacademy.org/" class="text-link-bold" target="_blank">Html Academy</a>
-                      </p>
-                    </div>
-                    <div class="col-12 col-md-5">
-                      <p class="small resume-lines__descr animate-in-up">This course gave me a closer look at html5, css3 and javascript. I learnt about felxblox, grid, adaptive and semantic layout</p>
+                      <p class="small resume-lines__descr animate-in-up">Deep dive into Vue reactivity and writing clean, extensible, reusable components.</p>
                     </div>
                   </div>
               <div class="row g-0 resume-lines__item animate-in-up">
@@ -507,7 +524,7 @@
                   <span class="resume-lines__date animate-in-up">2014 - 2018</span>
                 </div>
                 <div class="col-12 col-md-5">
-                  <h5 class="resume-lines__title animate-in-up">Bachelor in electrinics and nanoelectrincs</h5>
+                  <h5 class="resume-lines__title animate-in-up">Bachelor in Electronics and Nanoelectronics</h5>
                   <p class="resume-lines__source animate-in-up">
                     <a href="https://ssau.ru/english" class="text-link-bold" target="_blank">Samara National Research University</a>
                   </p>
@@ -604,7 +621,7 @@
                   </p>
                 </div>
                 <div class="col-12 col-md-5">
-                  <p class="small resume-lines__descr animate-in-up">Developed an application using NuxtJs, created a customdesign
+                  <p class="small resume-lines__descr animate-in-up">Developed an application using Nuxt.js, created a custom design
                     system based on AntDesign. <br> Technologies used: JavaScript, TypeScript, VueJS, NuxtJS.</p>
                 </div>
               </div>
@@ -621,7 +638,7 @@
                 </div>
                 <div class="col-12 col-md-5">
                   <p class="small resume-lines__descr animate-in-up">Supported the existing code base, fixed bugs, refactored code,
-                    created landingpages.<br> Technologies used: HTML5, CSS3, LESS, TemplateToolkit.</p>
+                    created landing pages.<br> Technologies used: HTML5, CSS3, LESS, TemplateToolkit.</p>
                 </div>
               </div>
             </div>
@@ -694,6 +711,24 @@
                 <div class="tools-cards__card">
                   <img class="tools-cards__icon animate-in-up" src="img/icons/icon-nuxt.svg" alt="Tools Icon">
                   <h6 class="tools-cards__caption animate-in-up">Nuxt</h6>
+                </div>
+              </div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <i class="ph-bold ph-graph tools-cards__icon animate-in-up" style="font-size:2.5rem;"></i>
+                  <h6 class="tools-cards__caption animate-in-up">GraphQL</h6>
+                </div>
+              </div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <i class="ph-bold ph-pinwheel tools-cards__icon animate-in-up" style="font-size:2.5rem;"></i>
+                  <h6 class="tools-cards__caption animate-in-up">Pinia</h6>
+                </div>
+              </div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <i class="ph-bold ph-cube tools-cards__icon animate-in-up" style="font-size:2.5rem;"></i>
+                  <h6 class="tools-cards__caption animate-in-up">Odoo</h6>
                 </div>
               </div>
             </div>
