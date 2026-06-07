@@ -28,12 +28,16 @@
 
     <style>
       /* --- Custom freelance-landing overrides --- */
-      .headline__subtitle{
-        margin-top: 28px;
+      #headline .hero-tagline{
+        margin-top: 24px !important;
         max-width: 640px;
-        font-size: 1.05rem;
-        line-height: 1.55;
-        opacity: .85;
+        font-size: 1.25rem !important;
+        line-height: 1.6 !important;
+        font-weight: 500 !important;
+        color: #2a2540 !important;
+      }
+      [color-scheme="dark"] #headline .hero-tagline{
+        color: #d8d4e8 !important;
       }
       /* Service cards: readable spacing, title separated from text */
       #services .achievements__card{
@@ -43,22 +47,22 @@
       }
       #services .achievements__card > i{
         color: var(--accent, #b794f6);
-        font-size: 2rem;
+        font-size: 2.4rem !important;
         margin-bottom: 18px;
         display: block;
       }
-      #services .svc-title{
+      #services .achievements__descr .svc-title{
         display: block;
-        font-size: 1.12rem;
-        font-weight: 700;
-        margin-bottom: 12px;
+        font-size: 1.4rem !important;
+        font-weight: 700 !important;
+        margin-bottom: 14px;
         line-height: 1.3;
       }
-      #services .svc-text{
+      #services .achievements__descr .svc-text{
         display: block;
-        font-size: .95rem;
-        line-height: 1.6;
-        opacity: .8;
+        font-size: 1.02rem !important;
+        line-height: 1.6 !important;
+        opacity: .82;
       }
       #services .achievements__item{ display: flex; }
       /* Fix outline button hover (non-mobile variant) */
@@ -191,7 +195,7 @@
 
           <div id="headline" class="headline d-flex align-items-start flex-column" data-speed="1">
             <h1 class="headline__title animate-headline">Hi, I'm Roman - Freelance Vue &amp; React Developer based in Berlin</h1>
-            <p class="headline__subtitle animate-headline">I help teams migrate Vue 2 → Vue 3, speed up slow web apps, and ship clean, maintainable frontends. Available for freelance &amp; contract work.</p>
+            <p class="hero-tagline animate-headline">I help teams migrate Vue 2 → Vue 3, speed up slow web apps, and ship clean, maintainable frontends. Available for freelance &amp; contract work.</p>
 
             <div class="headline__btnholder d-flex flex-column flex-sm-row">
               <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline" href="#projects">
