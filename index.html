@@ -66,14 +66,6 @@
         opacity: .82;
       }
       #services .achievements__item{ display: flex; }
-      /* Fix outline button hover (non-mobile variant) */
-      .btn-hover-outline:hover{
-        background: var(--accent, #b794f6);
-        border-color: var(--accent, #b794f6);
-        color: #14121a;
-      }
-      .btn-hover-outline:hover .btn-caption,
-      .btn-hover-outline:hover i{ color: #14121a; }
     </style>
 
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
@@ -370,7 +362,7 @@
                       <span class="btn-caption">Hire me</span>
                       <i class="ph-bold ph-paper-plane-tilt"></i>
                     </a>
-                    <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline" href="https://t.me/sjakaev" target="_blank">
+                    <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile" href="https://t.me/sjakaev" target="_blank">
                       <span class="btn-caption">Message on Telegram</span>
                       <i class="ph-bold ph-telegram-logo"></i>
                     </a>
@@ -720,19 +712,19 @@
               </div>
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
                 <div class="tools-cards__card">
-                  <i class="ph-bold ph-graph tools-cards__icon animate-in-up" style="font-size:2.5rem;"></i>
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-graphql.svg" alt="GraphQL">
                   <h6 class="tools-cards__caption animate-in-up">GraphQL</h6>
                 </div>
               </div>
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
                 <div class="tools-cards__card">
-                  <i class="ph-bold ph-pinwheel tools-cards__icon animate-in-up" style="font-size:2.5rem;"></i>
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-pinia.svg" alt="Pinia">
                   <h6 class="tools-cards__caption animate-in-up">Pinia</h6>
                 </div>
               </div>
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
                 <div class="tools-cards__card">
-                  <i class="ph-bold ph-cube tools-cards__icon animate-in-up" style="font-size:2.5rem;"></i>
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-odoo.svg" alt="Odoo">
                   <h6 class="tools-cards__caption animate-in-up">Odoo</h6>
                 </div>
               </div>
